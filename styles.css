@@ -1,0 +1,114 @@
+/* Body Styling */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Page Container */
+.page-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #d0eefc;
+    padding: 20px;
+}
+
+/* Header Box Styling */
+#header {
+    background: linear-gradient(to right, #083b50, #1073a1);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#header .bottom-text {
+    margin-top: 10px;
+    text-align: left;
+    font-style: italic;
+}
+
+/* Bottom White Box Styling */
+#footer-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Title Styling */
+.section-title {
+    font-size: 20px; /* Matches the INTRODUCTION title */
+    color: #083b50;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Unified Footer Text Styling */
+.footer-text {
+    font-size: 12px; /* Unified size for all text in the white box */
+    color: #083b50;
+    font-weight: normal; /* Normal weight for standard text */
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Footer Titles (Titles like Comparison and External Resources) */
+.footer-title {
+    font-size: 10px; /* Adjusted size for Comparison with Cephalopods */
+    color: #083b50;
+    font-weight: bold; /* Keep titles bold for emphasis */
+    margin-top: 20px;
+}
+
+/* Sub-Section Title Styling */
+.sub-section-title {
+    font-size: 17px; /* Adjusted for Amazing Facts title */
+    color: #083b50;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Anatomy Title Styling */
+.anatomy-title {
+    font-size: 12px; /* Adjusted for Anatomy title */
+    color: #083b50;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Amazing Facts List Styling */
+.amazing-facts-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.amazing-facts-list li {
+    font-size: 14px; /* Adjusted size for Amazing Facts list items */
+    margin-bottom: 10px;
+}
+
+.amazing-facts-list li::marker {
+    color: #89c6d8;
+}
+
+/* Footer Box Styling */
+.footer-box {
+    background-color: #083b50;
+    border-radius: 15px;
+    color: white;
+    padding: 20px 30px;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
